@@ -1,4 +1,4 @@
-import type {Metadata} from 'next';
+import type {Metadata, Viewport} from 'next';
 import {Inter} from 'next/font/google';
 import {NextIntlClientProvider, hasLocale} from 'next-intl';
 import {getMessages, setRequestLocale} from 'next-intl/server';
@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     description: 'Agente de operaciones con IA para pymes chilenas.',
   },
   metadataBase: new URL('https://ordda.cl'),
+};
+
+export const viewport: Viewport = {
   themeColor: '#ffffff',
 };
 
