@@ -12,7 +12,7 @@ export function Navbar() {
           <LanguageToggle />
           <a
             href="#waitlist"
-            className="hidden sm:inline-flex px-4 py-2 bg-[#25D366] text-white text-sm font-semibold rounded-lg hover:bg-[#20bd5a] transition-colors"
+            className="hidden sm:inline-flex px-4 py-2 bg-[#25D366] text-[#1a1f36] text-sm font-semibold rounded-lg hover:bg-[#20bd5a] transition-colors focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#1a1f36]"
           >
             {t('cta')}
           </a>

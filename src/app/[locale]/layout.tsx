@@ -24,6 +24,8 @@ export const metadata: Metadata = {
     title: 'Ordda — Tu contador en WhatsApp',
     description: 'Agente de operaciones con IA para pymes chilenas.',
   },
+  metadataBase: new URL('https://ordda.cl'),
+  themeColor: '#ffffff',
 };
 
 type Props = {
@@ -47,6 +49,12 @@ export default async function LocaleLayout({children, params}: Props) {
   return (
     <html lang={locale} className="scroll-smooth">
       <body className={`${inter.className} antialiased text-gray-700`}>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-white focus:text-[#1a1f36] focus:font-semibold focus:rounded-lg focus:shadow-lg"
+        >
+          Skip to main content
+        </a>
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>

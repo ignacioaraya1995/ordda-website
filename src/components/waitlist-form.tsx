@@ -41,7 +41,7 @@ export function WaitlistForm() {
         <p className="mt-4 text-lg text-gray-600">{t('subtitle')}</p>
 
         {status === 'success' ? (
-          <div className="mt-8 p-6 bg-green-50 rounded-2xl text-green-800 font-medium">
+          <div className="mt-8 p-6 bg-green-50 rounded-2xl text-green-800 font-medium" role="status" aria-live="polite">
             {t('success')}
           </div>
         ) : (
@@ -52,24 +52,31 @@ export function WaitlistForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder={t('email_placeholder')}
-              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#25D366] focus:border-transparent outline-none"
+              aria-label={t('email_placeholder')}
+              autoComplete="email"
+              name="email"
+              spellCheck={false}
+              className="w-full px-4 py-3 border border-gray-300 rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
             />
             <input
               type="tel"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder={t('phone_placeholder')}
-              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-[#25D366] focus:border-transparent outline-none"
+              aria-label={t('phone_placeholder')}
+              autoComplete="tel"
+              name="phone"
+              className="w-full px-4 py-3 border border-gray-300 rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-[#25D366] focus-visible:ring-offset-2"
             />
             <button
               type="submit"
               disabled={status === 'loading'}
-              className="w-full py-4 bg-[#25D366] text-white text-lg font-semibold rounded-xl hover:bg-[#20bd5a] transition-colors disabled:opacity-50"
+              className="w-full py-4 bg-[#25D366] text-[#1a1f36] text-lg font-semibold rounded-xl hover:bg-[#20bd5a] transition-colors disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#1a1f36]"
             >
-              {status === 'loading' ? '...' : t('button')}
+              {status === 'loading' ? '\u2026' : t('button')}
             </button>
             {status === 'error' && (
-              <p className="text-red-600 text-sm">{t('error')}</p>
+              <p className="text-red-600 text-sm" role="alert" aria-live="polite">{t('error')}</p>
             )}
           </form>
         )}

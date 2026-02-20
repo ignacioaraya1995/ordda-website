@@ -12,13 +12,13 @@ export function Metrics() {
   return (
     <section className="bg-[#1a1f36] py-16 sm:py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-white text-center">
+        <h2 className="text-3xl sm:text-4xl font-bold text-white text-center text-balance">
           {t('title')}
         </h2>
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
           {metrics.map((m, i) => (
             <div key={i}>
-              <div className="text-5xl font-bold text-[#25D366]">{m.value}</div>
+              <div className="text-5xl font-bold text-[#25D366] tabular-nums">{m.value}</div>
               <div className="mt-2 text-lg text-gray-300">{m.label}</div>
             </div>
           ))}
