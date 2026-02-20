@@ -11,6 +11,19 @@ const inter = Inter({subsets: ['latin']});
 export const metadata: Metadata = {
   title: 'Ordda — Tu contador en WhatsApp',
   description: 'Factura, cobra y cumple con el SII desde WhatsApp. Agente de operaciones con IA para pymes chilenas.',
+  openGraph: {
+    title: 'Ordda — Tu contador en WhatsApp',
+    description: 'Agente de operaciones con IA para pymes chilenas.',
+    url: 'https://ordda.cl',
+    siteName: 'Ordda',
+    locale: 'es_CL',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ordda — Tu contador en WhatsApp',
+    description: 'Agente de operaciones con IA para pymes chilenas.',
+  },
 };
 
 type Props = {
