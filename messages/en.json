@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "cta": "Try free"
+  },
+  "hero": {
+    "title": "Your accountant on WhatsApp",
+    "subtitle": "Invoice, collect payments, and stay SII-compliant from a chat. Ordda is your AI operations agent for Chilean SMEs.",
+    "cta_whatsapp": "Try free on WhatsApp",
+    "cta_waitlist": "Join the waitlist"
+  },
+  "problem": {
+    "title": "The daily grind of a Chilean SME",
+    "card1_title": "Manual invoicing",
+    "card1_desc": "Excel, paper, and hours wasted generating DTEs for the SII.",
+    "card2_title": "Forgotten collections",
+    "card2_desc": "Without a follow-up system, invoices get paid late — or never.",
+    "card3_title": "Tax compliance is scary",
+    "card3_desc": "F29, boletas de honorarios, deadlines... one mistake and you get fined."
+  },
+  "features": {
+    "title": "Everything you need, via WhatsApp",
+    "f1_title": "Electronic invoicing",
+    "f1_desc": "Create SII-valid facturas and boletas with a single message.",
+    "f2_title": "Automatic collections",
+    "f2_desc": "Payment tracking and smart reminders that escalate in urgency.",
+    "f3_title": "Cash flow",
+    "f3_desc": "See what you have, what you're owed, and a 3-month forecast.",
+    "f4_title": "SII compliance",
+    "f4_desc": "VAT summary, F29, boletas de honorarios, and deadline alerts."
+  },
+  "howItWorks": {
+    "title": "It's that easy",
+    "step1_title": "Message on WhatsApp",
+    "step1_desc": "\"Invoice Juan Lopez for $150,000 CLP\"",
+    "step2_title": "Ordda understands",
+    "step2_desc": "AI classifies your message and extracts data automatically.",
+    "step3_title": "Done, invoiced",
+    "step3_desc": "Invoice created, sent to SII, and PDF delivered on WhatsApp."
+  },
+  "metrics": {
+    "title": "Built with rigor",
+    "metric1_value": "404",
+    "metric1_label": "automated tests",
+    "metric2_value": "5",
+    "metric2_label": "sprints completed",
+    "metric3_value": "10",
+    "metric3_label": "SMEs in beta"
+  },
+  "waitlist": {
+    "title": "Join the beta",
+    "subtitle": "We're accepting SMEs to try Ordda for free. Leave your details and we'll reach out.",
+    "email_placeholder": "you@company.cl",
+    "phone_placeholder": "+56 9 1234 5678 (optional)",
+    "button": "Join the beta",
+    "success": "You're in! We'll let you know when you're next.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "made_in": "Made in Chile",
+    "rights": "All rights reserved."
+  }
+}

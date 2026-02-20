@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "cta": "Probar gratis"
+  },
+  "hero": {
+    "title": "Tu contador en WhatsApp",
+    "subtitle": "Factura, cobra y cumple con el SII desde una conversacion. Ordda es tu agente de operaciones con IA para pymes chilenas.",
+    "cta_whatsapp": "Probar gratis por WhatsApp",
+    "cta_waitlist": "Unirme a la lista de espera"
+  },
+  "problem": {
+    "title": "El dia a dia de una pyme en Chile",
+    "card1_title": "Facturas a mano",
+    "card1_desc": "Excel, papel, y horas perdidas generando DTEs para el SII.",
+    "card2_title": "Cobros olvidados",
+    "card2_desc": "Sin sistema de seguimiento, las facturas se pagan tarde o nunca.",
+    "card3_title": "El SII da miedo",
+    "card3_desc": "F29, boletas de honorarios, plazos... un error y llega la multa."
+  },
+  "features": {
+    "title": "Todo lo que necesitas, por WhatsApp",
+    "f1_title": "Facturacion electronica",
+    "f1_desc": "Crea facturas y boletas electronicas validas ante el SII con un mensaje.",
+    "f2_title": "Cobranza automatica",
+    "f2_desc": "Seguimiento de pagos y recordatorios automaticos que escalan en urgencia.",
+    "f3_title": "Flujo de caja",
+    "f3_desc": "Ve cuanto tienes, cuanto te deben, y una proyeccion a 3 meses.",
+    "f4_title": "Cumplimiento SII",
+    "f4_desc": "Resumen de IVA, F29, boletas de honorarios y alertas de vencimiento."
+  },
+  "howItWorks": {
+    "title": "Asi de facil",
+    "step1_title": "Escribe por WhatsApp",
+    "step1_desc": "\"Factura para Juan Lopez por $150.000\"",
+    "step2_title": "Ordda entiende",
+    "step2_desc": "La IA clasifica tu mensaje y extrae los datos automaticamente.",
+    "step3_title": "Listo, facturado",
+    "step3_desc": "Factura creada, enviada al SII, y PDF entregado por WhatsApp."
+  },
+  "metrics": {
+    "title": "Construido con rigor",
+    "metric1_value": "404",
+    "metric1_label": "tests automatizados",
+    "metric2_value": "5",
+    "metric2_label": "sprints completados",
+    "metric3_value": "10",
+    "metric3_label": "pymes en beta"
+  },
+  "waitlist": {
+    "title": "Unete al beta",
+    "subtitle": "Estamos aceptando pymes para probar Ordda gratis. Dejanos tus datos y te contactamos.",
+    "email_placeholder": "tu@empresa.cl",
+    "phone_placeholder": "+56 9 1234 5678 (opcional)",
+    "button": "Unirme al beta",
+    "success": "Listo! Te avisaremos cuando estes dentro.",
+    "error": "Hubo un error. Intenta de nuevo."
+  },
+  "footer": {
+    "made_in": "Hecho en Chile",
+    "rights": "Todos los derechos reservados."
+  }
+}
